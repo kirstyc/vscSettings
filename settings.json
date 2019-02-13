@@ -1,0 +1,48 @@
+{
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Python27\\python.exe",
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+          "FireBrick",
+          "DarkOrange",
+          "LightSeaGreen"
+        ],
+        "Red"
+      ],
+      "workbench.colorCustomizations": {
+        "[Atom One Light]": {
+          "editor.background":"#FAFAFA"
+        },
+        "[Material Theme Darker High Contrast]": {
+          "sideBar.foreground": "#DCB1F9"
+        }
+      },
+      "editor.tokenColorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+          "textMateRules": [
+            {
+                "scope": [
+                    "punctuation.definition.comment",
+                    "comment.block",
+                    "comment.line",
+                    "comment.block.documentation",
+                    "string.quoted.docstring.multi.python"
+                ],
+                "settings": {
+                    "foreground": "#96989c"
+                }
+            }
+          ]
+        }
+      },
+      "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+      "workbench.iconTheme": "material-icon-theme",
+      "window.zoomLevel": 0,
+      "workbench.editor.enablePreview": false,
+      "workbench.editor.enablePreviewFromQuickOpen": false
+}
