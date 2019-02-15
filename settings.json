@@ -16,10 +16,16 @@
       ],
       "workbench.colorCustomizations": {
         "[Atom One Light]": {
-          "editor.background":"#FAFAFA"
+          "editor.background":"#FAFAFA",
+          "editor.selectionHighlightBorder": "#64C4FC"
         },
         "[Material Theme Darker High Contrast]": {
-          "sideBar.foreground": "#DCB1F9"
+          "sideBar.foreground": "#DCB1F9",
+          "editor.selectionHighlightBorder": "#64C4FC",
+          "editor.selectionBackground": "#9292856c",
+          "editorBracketMatch.border" : "#64C4FC",
+          "tab.inactiveForeground": "#c4c2c2",
+          "tab.activeForeground": "#a6e7f0"
         }
       },
       "editor.tokenColorCustomizations": {
@@ -44,5 +50,6 @@
       "workbench.iconTheme": "material-icon-theme",
       "window.zoomLevel": 0,
       "workbench.editor.enablePreview": false,
-      "workbench.editor.enablePreviewFromQuickOpen": false
+      "workbench.editor.enablePreviewFromQuickOpen": false,
+      "window.title": "${activeEditorLong}${separator}${rootName}"
 }
